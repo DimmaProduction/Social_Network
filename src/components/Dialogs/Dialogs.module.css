@@ -1,0 +1,33 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems  {
+    padding: 10px;
+
+}
+
+.dialog a{
+    color: rgb(226, 0, 0);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dialogsItems a.activeDialog {
+    color: goldenrod;
+}
+
+
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+    color: maroon;
+}
+
+.sendBlock {
+    padding: 15px 0px;
+}

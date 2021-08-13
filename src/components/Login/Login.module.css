@@ -1,0 +1,11 @@
+.formErrorBox {
+    border: 2px solid red;
+    padding: 10px 20px ;
+    margin: 10px;
+    /* width: 200px; */
+    display: inline-block;
+}
+
+.formErrorBox  span{
+    color: red;
+}

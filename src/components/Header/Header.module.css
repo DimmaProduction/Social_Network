@@ -1,0 +1,33 @@
+.header{
+    grid-area: h;
+    background-color: rgb(21, 184, 16);
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+  
+.header img {
+    width: 60px;
+}
+
+.headerName {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 8px auto ;
+}
+
+.loginForm {
+    float: right;
+    margin-top: -55px;
+    margin-right: 10px;
+    color: white;
+}
+
+.loginForm button, 
+.loginForm p {
+    display: inline-block;
+    margin-right: 10px;
+}

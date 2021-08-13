@@ -1,0 +1,58 @@
+.pageBlock {
+    width: 100%;
+    margin: 20px auto;
+    /* background-color: rgb(139, 206, 16); */
+}
+
+.pageBlockWithButtons {
+    width: 40%;
+    margin: 0px auto;
+    /* background-color: rgb(33, 80, 209); */
+
+    position: relative 
+}
+
+.selectedPage {
+    font:bold;
+    color: red;
+    font-size: x-large;
+}
+
+.lineOfPage {
+    /* width: 300px; */
+    margin: 0px auto;
+    /* background-color: rgb(175, 50, 98); */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /* 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+}
+
+.lineOfPage span {
+    margin: 0px 2px;
+}
+
+.navButtonLeft,
+.navButtonRight {
+    margin: auto 10px;
+    display: inline-block;
+    position: absolute;
+    /* background-color: rgb(17, 146, 163); */
+} 
+
+.navButtonLeft {
+    /* position: left; */
+    left: 0px;
+}
+
+.navButtonRight {
+    /* position: right; */
+    right: 0px;
+}

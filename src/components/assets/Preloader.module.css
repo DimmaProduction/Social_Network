@@ -1,0 +1,13 @@
+
+.preloaderImg {
+    margin: 20px 45% 20px 45%;
+    width: 10%;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .preloaderBlock {
+    margin: 0px auto;
+    /* width: 100%; */
+    /* background-color: red; */
+  }
